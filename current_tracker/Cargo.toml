@@ -1,0 +1,9 @@
+[package]
+authors = ["Grayson Hay <russell.hay@gmail.com>"]
+edition = "2018"
+name = "current_tracker"
+version = "0.1.0"
+[dependencies]
+
+rspotify = "*"
+tokio = { version="0.2", features=["full"] }
